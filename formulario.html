@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="formulario.css">
+
+</head>
+<body>
+
+    <div class="container">
+
+    <center><h1>Cadastro de Viagem</h1></center>
+   
+    
+    <br><label for = 'date'>Nome Completo:</label><br>
+    <input type = 'text' id = 'nome' name = 'nome' ><br>
+
+
+    <br><label for = 'number'>Cpf:</label><br>
+    <input type = 'number' id = 'Cpf' name = 'Cpf' value = 'Cpf'><br><br>
+
+
+    <p>Gênero:</p>
+    <input type ='radio' name="genero" >
+    <label for = 'Feminino'>Feminino</label>
+
+    <input type ='radio' name="genero" >
+    <label for = 'Masculino'>Masculino</label>
+
+    <input type ='radio' name="genero">
+    <label for = 'Não deseja informar'>Não deseja informar</label>
+
+
+    <br><br><label for = 'date'>Selecione a data de ida:</label><br>
+    <input type = 'date' id = 'dataIda' name = 'dataIda' value = 'dataIda'><br>
+    
+    <br><label for = 'date'>Selecione a data de volta:</label><br>
+    <input type = 'date' id = 'dataVolta' name = 'dataVolta' value = 'dataVolta'><br>
+
+
+    <br><label for = 'number'>Informe quantas passagens:</label><br>
+    <input type = 'number' id = 'passagens' name = 'passagens' value = 'passagens'><br>
+
+
+    <br><label for = 'date'>Cidade de origem</label><br>
+    <input type = 'text' id = 'cidadeOrigem' name = 'cidadeOrigem'><br>
+
+    <br><label for = 'date'>Cidade de destino</label><br>
+    <input type = 'text' id = 'cidadeDestino' name = 'cidadeDestino'><br>
+
+    <p>Deseja algum acompanhamento para a viagem? (+10R$)<p>
+    
+      
+    <input type= 'checkbox' id= 'Fone' name= 'Fone' value= 'Fone'>
+    <label for = 'Fone'>Fone</label>
+   
+    <br><br><input type= 'checkbox' id= 'Travesseiro de pescoço' name= 'Travesseiro de pescoço' value= 'Travesseiro de pescoço'>
+    <label for = 'Travesseiro de pescoço'>Travesseiro de pescoço</label>
+    
+    <br><br><input type= 'checkbox' id= 'Máscara de dormir' name= 'Máscara de dormir' value= 'Máscara de dormir'>
+    <label for = 'Máscara de dormir'>Máscara de dormir</label><br><br>
+        
+
+    <center><button class="botao" type="button">Enviar Cadastro</button><center>
+
+
+    <br><label for = 'email'>Informe seu email para obter mais informações e promoções!</label><br>
+    <input type = 'email' id = 'email' name = 'email'  placeholder='Digite aqui!'>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,57 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    background-image: url(https://static.vecteezy.com/ti/fotos-gratis/p1/35385918-ai-gerado-uma-ampla-aeronave-voo-acima-nuvens-gratis-foto.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 115%;
+}
+
+    h1{
+        color: #09355c;
+    }
+
+.container{
+    max-width: 25%;
+    margin: 0 auto;
+    padding: 1.5%;
+    background-color:#5185A6;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+input{
+    border: 1px solid #11538C;
+    border-radius: 5px;
+   padding: 0.5%;
+}
+
+input::placeholder{
+    color: #5185A6;
+}
+
+input:hover{
+    border: 1px solid #09355c;
+}
+
+textarea:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.botao {
+    padding: 10px 20px;
+    background-color: #11538C; 
+    color: white; 
+    border:none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.5s; 
+  }
+  
+
+  .botao:hover {
+    background-color: #6AB9D9;
+  }
+  
